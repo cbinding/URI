@@ -611,10 +611,10 @@ URI.CRMEH = {
 };
 
 // Dublin Core
-// usage: alert(URI.DC.PROPERTY.TITLE) | alert(URI.DC.PROPERTY["TITLE"])
+// usage: alert(URI.DC.TITLE) | alert(URI.DC["TITLE"])
 // either call returns "http://purl.org/dc/elements/1.1/title"	
 URI.DC = {NS : "http://purl.org/dc/elements/1.1/"};
-URI.DC.PROPERTY = { 
+URI.DC = { 
 	// properties
 	TITLE		: URI.DC.NS + "title",
 	CREATOR		: URI.DC.NS + "creator",
