@@ -11,8 +11,9 @@ License : http://creativecommons.org/licenses/by/3.0/
 ===============================================================================
 History	:
 
-001	CFB	13/10/2010	Adapted from original (STAR project specific) STAR.URI.js
-002 CFB	19/08/2011	SKOSXL added, CRMEH NS changed to purl URI
+001 CFB 13/10/2011 Adapted from original (STAR project specific) STAR.URI.js
+002 CFB	9/08/2011 SKOSXL added, CRMEH NS changed to purl URI
+003 CFB 16/01/2013 Removed 'PROPERTY' from DC
 ===============================================================================
 */
 
