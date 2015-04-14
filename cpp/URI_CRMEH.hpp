@@ -5,7 +5,7 @@
       
 namespace URI
 {
-	// usage: URI::CRMEH::E1, URI::CRMEH::P2 etc.	
+	// usage: URI::CRMEH::EHE0001, URI::CRMEH::EHP1F etc.	
    namespace CRMEH
    {  
     // Entity types
