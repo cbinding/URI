@@ -1,32 +1,36 @@
-#!/usr/bin/env python
-#############################
-# Module:   URI_RDF.py
-# Author:   C Binding
-# Date:     2008-07-09
-# Version:  Draft 0.1
-'''
-Module defines URI constants for RDF entities and properties
-'''
-###############################
-# Log:
-# 2008-07-09    CFB - Initially created module
-################################
+"""
+===============================================================================
+Creator : Ceri Binding, University of South Wales | Prifysgol de Cymru 
+Contact : ceri.binding@southwales.ac.uk
+Project : Any
+Classes : URI_RDF
+Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+Example : 
+    import URI_RDF
+    print(URI_RDF.TYPE) # " http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+License : https://mit-license.org
+History :
+23/02/2023 CFB Extracted from old script, updated to use F-strings
+===============================================================================
+"""
+# Namespace
+NS = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 
-NS_RDF = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"    
-#Entity types
-XMLLITERAL = NS_RDF + "XMLLiteral"
-PROPERTY = NS_RDF + "Property"
-STATEMENT = NS_RDF + "Statement"
-BAG = NS_RDF + "Bag"
-SEQ = NS_RDF + "Seq"
-ALT = NS_RDF + "Alt"
-LIST = NS_RDF + "List"
-#Property types
-TYPE = NS_RDF + "type"
-FIRST = NS_RDF + "first"
-REST = NS_RDF + "rest"
-VALUE = NS_RDF + "value"
-SUBJECT = NS_RDF + "subject"
-PREDICATE = NS_RDF + "predicate"
-OBJECT = NS_RDF + "object"
-ID = NS_RDF + "ID"
+# Entities
+XMLLITERAL = f"{NS}XMLLiteral"
+PROPERTY = f"{NS}Property"
+STATEMENT = f"{NS}Statement"
+BAG = f"{NS}Bag"
+SEQ = f"{NS}Seq"
+ALT = f"{NS}Alt"
+LIST = f"{NS}List"
+
+# Properties
+TYPE = f"{NS}type"
+FIRST = f"{NS}first"
+REST = f"{NS}rest"
+VALUE = f"{NS}value"
+SUBJECT = f"{NS}subject"
+PREDICATE = f"{NS}predicate"
+OBJECT = f"{NS}object"
+ID = f"{NS}ID"

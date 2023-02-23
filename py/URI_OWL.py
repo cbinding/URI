@@ -1,57 +1,61 @@
-#!/usr/bin/env python
-#############################
-# Module:   URI_OWL.py
-# Author:   C Binding
-# Date:     2008-07-09
-# Version:  Draft 0.1
-'''
-Module defines URI constants for OWL entities and properties
-'''
-###############################
-# Log:
-# 2008-07-09    CFB - Initially created module
-################################
+"""
+===============================================================================
+Creator : Ceri Binding, University of South Wales | Prifysgol de Cymru 
+Contact : ceri.binding@southwales.ac.uk
+Project : Any
+Classes : URI_OWL
+Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+Example : 
+    import URI_OWL
+    print(URI_OWL.CLASS) # " http://www.w3.org/2002/07/owl#Class"
+License : https://mit-license.org
+History :
+23/02/2023 CFB Extracted from old script, updated to use F-strings
+===============================================================================
+"""
+# Namespace
+NS = "http://www.w3.org/2002/07/owl#"
 
-NS_OWL = "http://www.w3.org/2002/07/owl#"    
-#Entity types
-ALLDIFFERENT = NS_OWL + "AllDifferent"
-ANNOTATIONPROPERTY = NS_OWL + "AnnotationProperty"
-CLASS = NS_OWL + "Class"
-DATARANGE = NS_OWL + "DataRange"
-DATATYPEPROPERTY = NS_OWL + "DatatypeProperty"
-DEPRECATEDCLASS = NS_OWL + "DeprecatedClass"
-DEPRECATEDPROPERTY = NS_OWL + "DeprecatedProperty"
-FUNCTIONALPROPERTY = NS_OWL + "FunctionalProperty"
-INVERSEFUNCTIONALPROPERTY = NS_OWL + "InverseFunctionalProperty"
-NOTHING = NS_OWL + "Nothing"
-OBJECTPROPERTY = NS_OWL + "ObjectProperty"
-ONTOLOGY = NS_OWL + "Ontology"
-ONTOLOGYPROPERTY = NS_OWL + "OntologyProperty"
-RESTRICTION = NS_OWL + "Restriction"
-SYMMETRICPROPERTY = NS_OWL + "SymmetricProperty"
-THING = NS_OWL + "Thing"
-TRANSITIVEPROPERTY = NS_OWL + "TransitiveProperty"
-#Property types
-ALLVALUESFROM = NS_OWL + "allValuesFrom"
-BACKWARDCOMPATIBLEWITH = NS_OWL + "backwardCompatibleWith"
-CARDINALITY = NS_OWL + "cardinality"
-COMPLEMENTOF = NS_OWL + "complementOf"
-DIFFERENTFROM = NS_OWL + "differentFrom"
-DISJOINTWITH = NS_OWL + "disjointWith"
-DISTINCTMEMBERS = NS_OWL + "distinctMembers"
-EQUIVALENTCLASS = NS_OWL + "equivalentClass"
-EQUIVALENTPROPERTY = NS_OWL + "equivalentProperty"
-HASVALUE = NS_OWL + "hasValue"
-IMPORTS = NS_OWL + "imports"
-INCOMPATIBLEWITH = NS_OWL + "incompatibleWith"
-INTERSECTIONOF = NS_OWL + "intersectionOf"
-INVERSEOF = NS_OWL + "inverseOf"
-MAXCARDINALITY = NS_OWL + "maxCardinality"
-MINCARDINALITY = NS_OWL + "minCardinality"
-ONEOF = NS_OWL + "oneOf"
-ONPROPERTY = NS_OWL + "onProperty"
-PRIORVERSION = NS_OWL + "priorVersion"
-SAMEAS = NS_OWL + "sameAs"
-SOMEVALUESFROM = NS_OWL + "someValuesFrom"
-UNIONOF = NS_OWL + "unionOf"
-VERSIONINFO = NS_OWL + "versionInfo"
+# Entities
+ALLDIFFERENT = f"{NS}AllDifferent"
+ANNOTATIONPROPERTY = f"{NS}AnnotationProperty"
+CLASS = f"{NS}Class"
+DATARANGE = f"{NS}DataRange"
+DATATYPEPROPERTY = f"{NS}DatatypeProperty"
+DEPRECATEDCLASS = f"{NS}DeprecatedClass"
+DEPRECATEDPROPERTY = f"{NS}DeprecatedProperty"
+FUNCTIONALPROPERTY = f"{NS}FunctionalProperty"
+INVERSEFUNCTIONALPROPERTY = f"{NS}InverseFunctionalProperty"
+NOTHING = f"{NS}Nothing"
+OBJECTPROPERTY = f"{NS}ObjectProperty"
+ONTOLOGY = f"{NS}Ontology"
+ONTOLOGYPROPERTY = f"{NS}OntologyProperty"
+RESTRICTION = f"{NS}Restriction"
+SYMMETRICPROPERTY = f"{NS}SymmetricProperty"
+THING = f"{NS}Thing"
+TRANSITIVEPROPERTY = f"{NS}TransitiveProperty"
+
+# Properties
+ALLVALUESFROM = f"{NS}allValuesFrom"
+BACKWARDCOMPATIBLEWITH = f"{NS}backwardCompatibleWith"
+CARDINALITY = f"{NS}cardinality"
+COMPLEMENTOF = f"{NS}complementOf"
+DIFFERENTFROM = f"{NS}differentFrom"
+DISJOINTWITH = f"{NS}disjointWith"
+DISTINCTMEMBERS = f"{NS}distinctMembers"
+EQUIVALENTCLASS = f"{NS}equivalentClass"
+EQUIVALENTPROPERTY = f"{NS}equivalentProperty"
+HASVALUE = f"{NS}hasValue"
+IMPORTS = f"{NS}imports"
+INCOMPATIBLEWITH = f"{NS}incompatibleWith"
+INTERSECTIONOF = f"{NS}intersectionOf"
+INVERSEOF = f"{NS}inverseOf"
+MAXCARDINALITY = f"{NS}maxCardinality"
+MINCARDINALITY = f"{NS}minCardinality"
+ONEOF = f"{NS}oneOf"
+ONPROPERTY = f"{NS}onProperty"
+PRIORVERSION = f"{NS}priorVersion"
+SAMEAS = f"{NS}sameAs"
+SOMEVALUESFROM = f"{NS}someValuesFrom"
+UNIONOF = f"{NS}unionOf"
+VERSIONINFO = f"{NS}versionInfo"

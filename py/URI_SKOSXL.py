@@ -1,23 +1,27 @@
-#!/usr/bin/env python
-#############################
-# Module:   URI_SKOSXL.py
-# Author:   C Binding
-# Date:     2008-07-09
-# Version:  Draft 0.1
-'''
-Module defines URI constants for SKOSXL RDF entities and properties
-'''
-###############################
-# Log:
-# 2008-07-09    CFB - Initially created module
-################################
+"""
+===============================================================================
+Creator : Ceri Binding, University of South Wales | Prifysgol de Cymru 
+Contact : ceri.binding@southwales.ac.uk
+Project : Any
+Classes : URI_SKOSXL
+Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+Example : 
+    import URI_SKOSXL
+    print(URI_SKOSXL.PREFLABEL) # "http://www.w3.org/2008/05/skos-xl#prefLabel"
+License : https://mit-license.org
+History :
+23/02/2023 CFB Extracted from old script, updated to use F-strings
+===============================================================================
+"""
+# Namespace
+NS = "http://www.w3.org/2008/05/skos-xl#"
 
-NS_SKOSXL = "http://www.w3.org/2008/05/skos-xl#"    
-#Entities
-LABEL = NS_SKOSXL + "Label"
-#Properties
-PREFLABEL = NS_SKOSXL + "prefLabel"
-ALTLABEL = NS_SKOSXL + "altLabel"
-HIDDENLABEL = NS_SKOSXL + "hiddenLabel"
-LABELRELATION = NS_SKOSXL + "labelRelation"
-LITERALFORM = NS_SKOSXL + "literalForm"
+# Entities
+LABEL = f"{NS}Label"
+
+# Properties
+PREFLABEL = f"{NS}prefLabel"
+ALTLABEL = f"{NS}altLabel"
+HIDDENLABEL = f"{NS}hiddenLabel"
+LABELRELATION = f"{NS}labelRelation"
+LITERALFORM = f"{NS}literalForm"

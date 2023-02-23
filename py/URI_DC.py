@@ -1,31 +1,34 @@
-#!/usr/bin/env python
-#############################
-# Module:   URI_DC.py
-# Author:   C Binding
-# Date:     2008-07-09
-# Version:  Draft 0.1
-'''
-Module defines URI constants for DC RDF entities and properties
-'''
-###############################
-# Log:
-# 2008-07-09    CFB - Initially created module
-################################
+"""
+===============================================================================
+Creator : Ceri Binding, University of South Wales | Prifysgol de Cymru 
+Contact : ceri.binding@southwales.ac.uk
+Project : Any
+Classes : URI_DC
+Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+Example : 
+    import URI_DC
+    print(URI_DC.TITLE) # "http://purl.org/dc/elements/1.1/title"
+License : https://mit-license.org
+History :
+23/02/2023 CFB Extracted from old script, updated to use F-strings
+===============================================================================
+"""
+# Namespace
+NS = "http://purl.org/dc/elements/1.1/"
 
-NS_DC = "http://purl.org/dc/elements/1.1/"    
-#Property types
-TITLE = NS_DC +  "title"
-CREATOR = NS_DC +  "creator"
-SUBJECT = NS_DC +  "subject"
-DESCRIPTION = NS_DC +  "description"
-PUBLISHER = NS_DC +  "publisher"
-CONTRIBUTOR = NS_DC +  "contributor"
-DATE = NS_DC +  "date"
-TYPE = NS_DC +  "type"
-FORMAT = NS_DC +  "format"
-IDENTIFIER = NS_DC +  "identifier"
-SOURCE = NS_DC +  "source"
-LANGUAGE = NS_DC +  "language"
-RELATION = NS_DC +  "relation"
-COVERAGE = NS_DC +  "coverage"
-RIGHTS = NS_DC +  "rights"
+# Properties
+TITLE = f"{NS}title"
+CREATOR = f"{NS}creator"
+SUBJECT = f"{NS}subject"
+DESCRIPTION = f"{NS}description"
+PUBLISHER = f"{NS}publisher"
+CONTRIBUTOR = f"{NS}contributor"
+DATE = f"{NS}date"
+TYPE = f"{NS}type"
+FORMAT = f"{NS}format"
+IDENTIFIER = f"{NS}identifier"
+SOURCE = f"{NS}source"
+LANGUAGE = f"{NS}language"
+RELATION = f"{NS}relation"
+COVERAGE = f"{NS}coverage"
+RIGHTS = f"{NS}rights"

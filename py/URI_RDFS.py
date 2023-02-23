@@ -1,32 +1,36 @@
-#!/usr/bin/env python
-#############################
-# Module:   URI_RDFS.py
-# Author:   C Binding
-# Date:     2008-07-09
-# Version:  Draft 0.1
-'''
-Module defines URI constants for RDFS entities and properties
-'''
-###############################
-# Log:
-# 2008-07-09    CFB - Initially created module
-################################
+"""
+===============================================================================
+Creator : Ceri Binding, University of South Wales | Prifysgol de Cymru 
+Contact : ceri.binding@southwales.ac.uk
+Project : Any
+Classes : URI_RDFS
+Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+Example : 
+    import URI_RDFS
+    print(URI_RDFS.CLASS) # "http://www.w3.org/2000/01/rdf-schema#Class"
+License : https://mit-license.org
+History :
+23/02/2023 CFB Extracted from old script, updated to use F-strings
+===============================================================================
+"""
+# Namespace
+NS = "http://www.w3.org/2000/01/rdf-schema#"
 
-NS_RDFS = "http://www.w3.org/2000/01/rdf-schema#"    
-#Entity types
-RESOURCE = NS_RDFS + "Resource"
-LITERAL = NS_RDFS + "Literal"
-CLASS = NS_RDFS + "Class"
-DATATYPE = NS_RDFS + "Datatype"
-CONTAINER = NS_RDFS + "Container"
-CONTAINERMEMBERSHIPPROPERTY = NS_RDFS + "ContainerMembershipProperty"
-#Property types
-SUBCLASSOF = NS_RDFS + "subClassOf"
-SUBPROPERTYOF = NS_RDFS + "subPropertyOf"
-DOMAIN = NS_RDFS + "domain"
-RANGE = NS_RDFS + "range"
-LABEL = NS_RDFS + "label"
-COMMENT = NS_RDFS + "comment"
-MEMBER = NS_RDFS + "member"
-SEEALSO = NS_RDFS + "seeAlso"
-ISDEFINEDBY = NS_RDFS + "isDefinedBy"
+# Entities
+RESOURCE = f"{NS}Resource"
+LITERAL = f"{NS}Literal"
+CLASS = f"{NS}Class"
+DATATYPE = f"{NS}Datatype"
+CONTAINER = f"{NS}Container"
+CONTAINERMEMBERSHIPPROPERTY = f"{NS}ContainerMembershipProperty"
+
+# Properties
+SUBCLASSOF = f"{NS}subClassOf"
+SUBPROPERTYOF = f"{NS}subPropertyOf"
+DOMAIN = f"{NS}domain"
+RANGE = f"{NS}range"
+LABEL = f"{NS}label"
+COMMENT = f"{NS}comment"
+MEMBER = f"{NS}member"
+SEEALSO = f"{NS}seeAlso"
+ISDEFINEDBY = f"{NS}isDefinedBy"

@@ -3,18 +3,20 @@
 Creator : Ceri Binding, University of South Wales | Prifysgol de Cymru 
 Contact : ceri.binding@southwales.ac.uk
 Project : Any
-Classes : URI_ECRM
+Classes : URI_CRM 
 Summary : Case-sensitive entity & property URI constants (for RDF apps) 
 Example : 
-    import URI_ECRM
-    print(URI_ECRM.E1) # " http://erlangen-crm.org/current/E1_CRM_Entity"
+    import URI_CRM
+    print(URI_CRM.E1) # "http://www.cidoc-crm.org/cidoc-crm/E1_CRM_Entity"
 License : https://mit-license.org
 History :
-23/02/2023 CFB Extracted from old script, updated to use F-strings
+23/02/2023 CFB 
+    Extracted from old script, updated to use F-strings,
+    updated to reflect CRM v7.1.2 entities and properties
 ===============================================================================
 """
 # Namespace
-NS = " http://erlangen-crm.org/current/"
+NS = "http://www.cidoc-crm.org/cidoc-crm/"
 
 # Entities
 E1 = f"{NS}E1_CRM_Entity"
