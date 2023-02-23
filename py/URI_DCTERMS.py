@@ -5,6 +5,7 @@ Contact : ceri.binding@southwales.ac.uk
 Project : Any
 Classes : URI_DCTERMS
 Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+          NOTE: constants by convention only, not immutable in Python
 Example : 
     import URI_DCTERMS
     print(URI_DCTERMS.TITLE) # "http://purl.org/dc/terms/title"

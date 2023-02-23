@@ -5,6 +5,7 @@ Contact : ceri.binding@southwales.ac.uk
 Project : Any
 Classes : URI_SKOSXL
 Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+          NOTE: constants by convention only, not immutable in Python          
 Example : 
     import URI_SKOSXL
     print(URI_SKOSXL.PREFLABEL) # "http://www.w3.org/2008/05/skos-xl#prefLabel"

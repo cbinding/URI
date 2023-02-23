@@ -4,7 +4,8 @@ Creator : Ceri Binding, University of South Wales | Prifysgol de Cymru
 Contact : ceri.binding@southwales.ac.uk
 Project : Any
 Classes : URI_RDFS
-Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+Summary : Case-sensitive entity & property URI constants (for RDF apps)
+          NOTE: constants by convention only, not immutable in Python          
 Example : 
     import URI_RDFS
     print(URI_RDFS.CLASS) # "http://www.w3.org/2000/01/rdf-schema#Class"

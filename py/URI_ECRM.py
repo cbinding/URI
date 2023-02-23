@@ -5,6 +5,7 @@ Contact : ceri.binding@southwales.ac.uk
 Project : Any
 Classes : URI_ECRM
 Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+          NOTE: constants by convention only, not immutable in Python          
 Example : 
     import URI_ECRM
     print(URI_ECRM.E1) # " http://erlangen-crm.org/current/E1_CRM_Entity"

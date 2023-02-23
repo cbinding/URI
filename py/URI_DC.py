@@ -5,6 +5,7 @@ Contact : ceri.binding@southwales.ac.uk
 Project : Any
 Classes : URI_DC
 Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+          NOTE: constants by convention only, not immutable in Python
 Example : 
     import URI_DC
     print(URI_DC.TITLE) # "http://purl.org/dc/elements/1.1/title"

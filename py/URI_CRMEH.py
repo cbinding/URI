@@ -5,6 +5,7 @@ Contact : ceri.binding@southwales.ac.uk
 Project : Any
 Classes : URI_CRMEH
 Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+          NOTE: constants by convention only, not immutable in Python
 Example : 
     import URI_CRMEH
     print(URI_CRMEH.EHE0001) # "http://purl.org/crmeh#EHE0001_EHProject"

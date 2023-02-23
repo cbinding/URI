@@ -5,6 +5,7 @@ Contact : ceri.binding@southwales.ac.uk
 Project : Any
 Classes : URI_OWL
 Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+          NOTE: constants by convention only, not immutable in Python          
 Example : 
     import URI_OWL
     print(URI_OWL.CLASS) # " http://www.w3.org/2002/07/owl#Class"

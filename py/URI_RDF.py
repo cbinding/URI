@@ -5,6 +5,7 @@ Contact : ceri.binding@southwales.ac.uk
 Project : Any
 Classes : URI_RDF
 Summary : Case-sensitive entity & property URI constants (for RDF apps) 
+          NOTE: constants by convention only, not immutable in Python          
 Example : 
     import URI_RDF
     print(URI_RDF.TYPE) # " http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
