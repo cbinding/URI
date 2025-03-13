@@ -16,6 +16,9 @@ History :
 10/02/2023 CFB 
     Extracted from old script and converted to ES6 module
     updated to reflect CRM v7.1.2 entities and properties
+13/03/2025 CFB 
+    updated to reflect CRM v7.1.3 entities and properties
+    E59 + P196 URIs corrected; E59 added
 ===============================================================================
 */
 const NS = "http://www.cidoc-crm.org/cidoc-crm/"
